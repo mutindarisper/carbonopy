@@ -1,0 +1,18 @@
+/* ImageSlideshow.css */
+
+.slide {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slide img {
+    width: 100%;
+    max-height: 100vh ;
+    transition: transform 0.1s ease; /* Add a smooth transition effect */
+    /* opacity: 0.9; */
+  }
+  
+  .slick-current .slide img {
+    transform: scale(1.2); /* Adjust the scale factor for the ripple effect */
+  }
+  

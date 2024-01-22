@@ -1,0 +1,9 @@
+body {
+    padding-top: 56px; /* Adjust this value to match the height of your fixed navbar */
+  }
+  
+  @media (min-width: 768px) {
+    body {
+      padding-top: 3em; /* Adjust this value to match the height of your fixed navbar for lg and xl screens */
+    }
+  }
