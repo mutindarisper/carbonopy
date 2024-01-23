@@ -3,16 +3,16 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './ImageSlideshow.css'; // Import your custom CSS for the ripple effect
-import satellite from "../assets/images/satellite.jpeg"
+import satellite from "../assets/images/sat.jpg"
 import aerial from '../assets/images/aerial.jpg'
 import stars from '../assets/images/stars.jpg'
-import ai from '../assets/images/aieo.jpg'
-import ai_ from '../assets/images/ai_.jpg'
+import ai from '../assets/images/ml.jpg'
+import ai_ from '../assets/images/aii.jpg'
 
 import unccd from '../assets/logos/unccd_.png'
 import gok from '../assets/logos/gok.svg'
 
-import { Carousel, Row, Col } from 'react-bootstrap';
+import { Carousel, Row, Col, Image } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import $ from 'jquery';
 // import "https://cdn.jsdelivr.net/npm/ripples@0.9.1/dist/ripples.min.css";
@@ -34,7 +34,12 @@ const settings = {
 
   const logoStyle = {
     maxWidth: '16em',
-    maxHeight: '3em',
+    maxHeight: '7em',
+    marginTop:'5em',
+    marginBottom: '-5em',
+    backgroundColor: 'transparent',
+    
+    // style={{marginTop:'15em'}}
 };
 
 const Header = () => {
@@ -70,14 +75,34 @@ const Header = () => {
 
 <Carousel controls={false} indicators={false} className='carousel-fade' id="jumboCarousel" >
 
-<Carousel.Item className='item'>
-  <img  src={satellite} alt="Slide 1" class="d-flex flex-column justify-content-center align-items-center h-100"/>
+
+
+
+<Carousel.Item>
+  <img  src={ai_} alt="Slide 2" className="d-flex flex-column justify-content-center align-items-center h-100 flip-horizontal" />
   <Carousel.Caption style={{}} className="custom-caption">
-          {/* <h2>Carbon-flo provides access to state-of-the-art AI models empowering users with biodiversity intelligence and insights </h2> */}
+          <p style={{fontSize:'3em'}}> <span style={{color:'#fff', fontWeight:'bolder'}}>Carbon-flo</span> provides access to state-of-the-art <span style={{color:'#fff', fontWeight:'bolder'}}>AI models</span>  empowering users with biodiversity intelligence and insights </p>
           <Row className="justify-content-between">
                 {logos.map((logo, index) => (
-                    <Col key={index} xs={6} md={3} lg={2} className="mb-4">
-                        <Image src={logo} alt={`Logo ${index + 1}`} style={logoStyle} fluid />
+                    <Col key={index} xs={6} md={3} lg={2}  >
+                        <Image className='grey-out-logo ' src={logo} alt={`Logo ${index + 1}`} style={logoStyle} fluid />
+                    </Col>
+                ))}
+            </Row>
+        </Carousel.Caption>
+</Carousel.Item>
+
+
+
+<Carousel.Item className='item'>
+  <img  src={satellite} alt="Slide 1" className="d-flex flex-column justify-content-center align-items-center h-100"/>
+  <Carousel.Caption style={{}} className="custom-caption">
+           <p style={{fontSize:'3em'}}> <span style={{color:'#fff', fontWeight:'bolder'}}>Carbon-flo</span> provides access to state-of-the-art <span style={{color:'#fff', fontWeight:'bolder'}}>AI models</span> empowering users with biodiversity intelligence and insights </p>
+          <Row className="justify-content-between" >
+                {logos.map((logo, index) => (
+                    <Col key={index} xs={6} md={3} lg={2} >
+                        <Image className='grey-out-logo ' src={logo} alt={`Logo ${index + 1}`} style={logoStyle} fluid />
+                        
                     </Col>
                 ))}
             </Row>
@@ -89,19 +114,16 @@ const Header = () => {
 
 
 <Carousel.Item>
-  <img  src={ai_} alt="Slide 2" class="d-flex flex-column justify-content-center align-items-center h-100" />
+  <img  src={ai} alt="Slide 2" className="d-flex flex-column justify-content-center align-items-center h-100 flip-horizontal" />
   <Carousel.Caption style={{}} className="custom-caption">
-          <h2>Carbon-flo provides access to state-of-the-art AI models empowering users with biodiversity intelligence and insights </h2>
-          {/* <p>Using Earth Observation</p> */}
-        </Carousel.Caption>
-</Carousel.Item>
-
-
-<Carousel.Item>
-  <img  src={ai} alt="Slide 2" class="d-flex flex-column justify-content-center align-items-center h-100" />
-  <Carousel.Caption style={{}} className="custom-caption">
-          <h2>Carbon-flo provides access to state-of-the-art AI models empowering users with biodiversity intelligence and insights </h2>
-          {/* <p></p> */}
+           <p style={{fontSize:'3em'}}> <span style={{color:'#fff', fontWeight:'bolder'}}>Carbon-flo</span> provides access to state-of-the-art <span style={{color:'#fff', fontWeight:'bolder'}}>AI models</span>  empowering users with biodiversity intelligence and insights </p>
+          <Row className="justify-content-between">
+                {logos.map((logo, index) => (
+                    <Col key={index} xs={6} md={3} lg={2} >
+                        <Image className='grey-out-logo ' src={logo} alt={`Logo ${index + 1}`} style={logoStyle} fluid />
+                    </Col>
+                ))}
+            </Row>
         </Carousel.Caption>
 </Carousel.Item>
 

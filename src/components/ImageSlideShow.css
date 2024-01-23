@@ -9,7 +9,7 @@
     width: 100%;
     max-height: 100vh ;
     transition: transform 0.1s ease; /* Add a smooth transition effect */
-    /* opacity: 0.9; */
+    background-color: rgba(0, 0, 0, 0.4);
   }
   
   .slick-current .slide img {
@@ -20,4 +20,12 @@
        /* -webkit-transform-style: preserve-3d;
      -moz-transform-style: preserve-3d;
      transform-style: preserve-3d; */
+      }
+
+      .grey-out-logo {
+        filter: grayscale(100%);
+      }
+
+      .flip-horizontal {
+        transform: scaleX(-1);
       }

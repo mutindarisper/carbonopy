@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav, Container, Button, Image } from 'react-bootstrap';
-import logo from '../assets/logos/carbonopy_logo.png'
+import logo from '../assets/logos/flo.png'
 // import './Navbar.css'
 
 const NavLinkStyle = {
@@ -19,7 +19,7 @@ const NavigationBar = () => {
            src={logo} 
             alt="Logo"
             fluid
-            style={{maxHeight:'3em'}}
+            style={{maxHeight:'5em'}}
             // className="d-inline-block align-top"
              />
         </Navbar.Brand>
