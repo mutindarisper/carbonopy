@@ -2,6 +2,8 @@ import React from 'react'
 import NavigationBar from './NavigationBar'
 import Header from './Header'
 import Features from './Features'
+import CallToAction from './CallToAction'
+import Footer from './Footer'
 
 const HomePage = () => {
   return (
@@ -9,7 +11,9 @@ const HomePage = () => {
 
 <NavigationBar />
 <Header />    
-<Features />    
+<Features />  
+<CallToAction  />
+<Footer />
  
     </div>
   )

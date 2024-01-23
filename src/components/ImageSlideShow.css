@@ -37,7 +37,8 @@
         color: white;
          /* padding: 40px;  */
         /* min-height: 700px;  */
-        width:100vw;
+        width: 100vw;
+        height: 100vh ;
         margin-left: -19em;
       }
 
@@ -49,4 +50,35 @@
         padding: 15em 2em;
         /* background-color: rgba(0, 0, 0, 0.6); Black with opacity */
       }
+      /* .stories{
+        background-color: #ccc;
+        width:100vw;
+        margin-left: -19em;
+
+      } */
+      .dimmed-image-container {
+        position: relative;
+        
+      }
+      
+      .dimmed-image-container::before {
+        content: "";
+        /* display: block; */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw !important;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5); /* Adjust the last value for the desired level of dimming (0 is transparent, 1 is opaque) */
+        pointer-events: none; /* Allows clicks to pass through the dimmed layer */
+        /* padding: 15em 2em; */
+      }
+      
+      .dimmed-image {
+        background-size: cover;
+        /* display: block; */
+        width: 100vw;
+        height: 100vh ;
+      }
+      
       
