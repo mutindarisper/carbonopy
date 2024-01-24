@@ -49,6 +49,13 @@
         
       
       } */
+       .ceo_text-container {
+       display:flex;
+      
+       
+        
+      
+      } 
       .black-bg-opacity {
         padding: 15em 2em;
         /* background-color: rgba(0, 0, 0, 0.6); Black with opacity */
@@ -76,7 +83,7 @@
       }
       
       .dimmed-image {
-        background-size: cover;
+        /* background-size: cover; */
         /* display: block; */
         width: 100vw;
         height: 100vh ;
