@@ -30,7 +30,7 @@ const NavigationBar = () => {
             <Nav.Link  style={NavLinkStyle} href="/">Explore</Nav.Link>
             <Nav.Link  style={NavLinkStyle} href="#stories">Stories</Nav.Link>
             
-            <Nav.Link  style={NavLinkStyle} href="/careers">Careers</Nav.Link>
+            <Link style={{textDecoration:'none', color:'#fff', marginTop:'.8vh', marginLeft:'.2vw'}} to={'/careers'}>Careers</Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse className="justify-content-end">

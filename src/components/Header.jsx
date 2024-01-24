@@ -39,37 +39,14 @@ const settings = {
     marginBottom: '-5em',
     backgroundColor: 'transparent',
     
-    // style={{marginTop:'15em'}}
+    
 };
 
 const Header = () => {
-  // useEffect(() => {
-  //   $('.background').ripples({
-  //     resolution: 256,
-  //     dropRadius: 20,
-  //     perturbance: 0.04,
-  //   });
-
-  //   // Clean up the ripples when the component unmounts
-  //   return () => {
-  //     $('.background').ripples('destroy');
-  //   };
-  // }, []);
+  
   
   return (
-    // <Slider {...settings}>
-    //   <div className="slide">
-    //     <img src={satellite} alt="satellite" />
-    //   </div>
-    //   <div className="slide">
-    //     <img src={stars} alt="space" />
-    //   </div>
-
-    //   <div className="slide">
-    //     <img src={aerial} alt="aerial" />
-    //   </div>
-     
-    // </Slider>
+   
 
 <>
 
@@ -81,14 +58,14 @@ const Header = () => {
 <Carousel.Item>
   <img  src={ai_} alt="Slide 2" className="d-flex flex-column justify-content-center align-items-center h-100 flip-horizontal" />
   <Carousel.Caption style={{}} className="custom-caption">
-          <p style={{fontSize:'3em'}}> <span style={{color:'#fff', fontWeight:'bolder'}}>Carbon-flo</span> provides access to state-of-the-art <span style={{color:'#fff', fontWeight:'bolder'}}>AI models</span>  empowering users with biodiversity intelligence and insights </p>
-          <Row className="justify-content-between">
+          <p style={{fontSize:'3em'}}> <span style={{color:'#fff', fontWeight:'bolder'}}>Carbon-flo</span>  provides users with AI driven Measuring & Reporting frameworks for nature based solutions using satellite technology. We connect farmers, communities and other stakeholder to accessing climate resielience funds through our carbonFLOW platform. </p>
+          {/* <Row className="justify-content-between">
                 {logos.map((logo, index) => (
                     <Col key={index} xs={6} md={3} lg={2}  >
                         <Image className='grey-out-logo ' src={logo} alt={`Logo ${index + 1}`} style={logoStyle} fluid />
                     </Col>
                 ))}
-            </Row>
+            </Row> */}
         </Carousel.Caption>
 </Carousel.Item>
 
@@ -97,15 +74,15 @@ const Header = () => {
 <Carousel.Item className='item'>
   <img  src={satellite} alt="Slide 1" className="d-flex flex-column justify-content-center align-items-center h-100"/>
   <Carousel.Caption style={{}} className="custom-caption">
-           <p style={{fontSize:'3em'}}> <span style={{color:'#fff', fontWeight:'bolder'}}>Carbon-flo</span> provides access to state-of-the-art <span style={{color:'#fff', fontWeight:'bolder'}}>AI models</span> empowering users with biodiversity intelligence and insights </p>
-          <Row className="justify-content-between" >
+           <p style={{fontSize:'3em'}}> <span style={{color:'#fff', fontWeight:'bolder'}}>Carbon-flo</span>  provides users with AI driven Measuring & Reporting frameworks for nature based solutions using satellite technology. We connect farmers, communities and other stakeholder to accessing climate resielience funds through our carbonFLOW platform. </p>
+          {/* <Row className="justify-content-between" >
                 {logos.map((logo, index) => (
                     <Col key={index} xs={6} md={3} lg={2} >
                         <Image className='grey-out-logo ' src={logo} alt={`Logo ${index + 1}`} style={logoStyle} fluid />
                         
                     </Col>
                 ))}
-            </Row>
+            </Row> */}
 
         
         </Carousel.Caption>
@@ -116,14 +93,14 @@ const Header = () => {
 <Carousel.Item>
   <img  src={ai} alt="Slide 2" className="d-flex flex-column justify-content-center align-items-center h-100 flip-horizontal" />
   <Carousel.Caption style={{}} className="custom-caption">
-           <p style={{fontSize:'3em'}}> <span style={{color:'#fff', fontWeight:'bolder'}}>Carbon-flo</span> provides access to state-of-the-art <span style={{color:'#fff', fontWeight:'bolder'}}>AI models</span>  empowering users with biodiversity intelligence and insights </p>
-          <Row className="justify-content-between">
+           <p style={{fontSize:'3em'}}> <span style={{color:'#fff', fontWeight:'bolder'}}>Carbon-flo</span>  provides users with AI driven Measuring & Reporting frameworks for nature based solutions using satellite technology. We connect farmers, communities and other stakeholder to accessing climate resielience funds through our carbonFLOW platform. </p>
+          {/* <Row className="justify-content-between">
                 {logos.map((logo, index) => (
                     <Col key={index} xs={6} md={3} lg={2} >
                         <Image className='grey-out-logo ' src={logo} alt={`Logo ${index + 1}`} style={logoStyle} fluid />
                     </Col>
                 ))}
-            </Row>
+            </Row> */}
         </Carousel.Caption>
 </Carousel.Item>
 
