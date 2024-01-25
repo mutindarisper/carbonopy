@@ -4,6 +4,11 @@ import { Link, useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './ImageSlideShow.css'
 import dash from '../assets/images/dash.png'
+import biomass from '../assets/images/biomass2.png'
+import historical from '../assets/images/historical.png'
+import carbon from '../assets/images/offsets.png'
+import biodiversity from '../assets/images/biodiversity.png';
+import crops from '../assets/images/crops.png'
 import tab from '../assets/images/tab.png'
 import satellite from '../assets/images/satellite.jpeg'
 import stars from '../assets/images/stars.jpg'
@@ -14,18 +19,19 @@ const Features = () => {
 
                 <img src={stars} alt="space" className="dimmed-image"></img>
 
-                <Row style={{
+                <Row  style={{
                     position: 'absolute',
                     top: '50%',
                     left: '50%',
                     transform: 'translate(-50%, -50%)',
-                    color: '#fff', // Text color
+                    color: '#fff', 
                     zIndex: 1,
                     display: 'flex',
                     flexDirection: 'row',
                     gap: '10em'
 
                 }} >
+
                     <Col className="" fluid >
                         <div className="text-container">
                             <Stack gap={4} >
@@ -44,8 +50,8 @@ const Features = () => {
                     </Col>
 
 
-                    <Col className="" sm={6} fluid >
-                        <Image src={dash} fluid />
+                    <Col className=""  fluid >
+                        <Image src={biomass} fluid />
 
                     </Col>
                 </Row>
@@ -89,8 +95,8 @@ const Features = () => {
                     </Col>
 
 
-                    <Col className="" sm={6} fluid >
-                        <Image src={dash} fluid />
+                    <Col className=""  fluid >
+                        <Image src={historical} fluid />
 
                     </Col>
                 </Row>
@@ -132,8 +138,8 @@ const Features = () => {
                     </Col>
 
 
-                    <Col className="" sm={6} fluid >
-                        <Image src={dash} fluid />
+                    <Col className=""  fluid >
+                        <Image src={carbon} fluid />
 
                     </Col>
                 </Row>
@@ -175,8 +181,8 @@ const Features = () => {
                     </Col>
 
 
-                    <Col className="" sm={6} fluid >
-                        <Image src={dash} fluid />
+                    <Col className=""  fluid >
+                        <Image src={biodiversity} fluid />
 
                     </Col>
                 </Row>
@@ -218,8 +224,8 @@ const Features = () => {
                     </Col>
 
 
-                    <Col className="" sm={6} fluid >
-                        <Image src={dash} fluid />
+                    <Col className=""  fluid >
+                        <Image src={crops} fluid />
 
                     </Col>
                 </Row>

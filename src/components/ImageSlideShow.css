@@ -16,10 +16,10 @@
     transform: scale(1.2); /* Adjust the scale factor for the ripple effect */
   }
   .custom-caption {
-    transform: translateY(-50%) !important;
-       /* -webkit-transform-style: preserve-3d;
+    /* transform: translateY(-50%) !important; */
+        /* -webkit-transform-style: preserve-3d;
      -moz-transform-style: preserve-3d;
-     transform-style: preserve-3d; */
+     transform-style: preserve-3d;  */
       }
 
       .grey-out-logo {

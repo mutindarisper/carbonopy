@@ -59,8 +59,8 @@ const Careers = () => {
           color: '#fff', // Text color
           zIndex: 1,
           marginTop:'12em',
-          maxHeight:'30em'
-        }} src={ceo} rounded fluid />
+          maxHeight:'20em'
+        }} src={ceo} roundedCircle fluid />
 
      
                 
