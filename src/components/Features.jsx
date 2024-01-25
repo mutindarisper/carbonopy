@@ -51,7 +51,7 @@ const Features = () => {
 
 
                     <Col className=""  fluid >
-                        <Image src={biomass} fluid />
+                        <Image className='tilted-image '  src={biomass} fluid />
 
                     </Col>
                 </Row>

@@ -4,37 +4,32 @@ import { Carousel, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Carousel.css'; // You can create this file for custom styles
 
+import unccd from '../assets/logos/unccd2.png'
+import gok from '../assets/logos/gok.png'
+
 const Header2 = () => {
   return (
     <Container fluid>
+        <p>Our Partners</p>
       <Carousel controls={false} indicators={false} className="custom-carousel">
         <Carousel.Item>
           <div className="carousel-item-content">
             <div className="carousel-image image1"></div>
             <div className="carousel-text">
-              <h2>Slide 1</h2>
-              <p>This is the first slide</p>
+             <img style={{height:'10em', width:'15em', marginTop:'-5vh' }} src={unccd} alt="" />
             </div>
           </div>
         </Carousel.Item>
-        <Carousel.Item>
-          <div className="carousel-item-content">
-            <div className="carousel-image image2"></div>
-            <div className="carousel-text">
-              <h2>Slide 2</h2>
-              <p>This is the second slide</p>
-            </div>
-          </div>
-        </Carousel.Item>
+        
         <Carousel.Item>
           <div className="carousel-item-content">
             <div className="carousel-image image3"></div>
             <div className="carousel-text">
-              <h2>Slide 3</h2>
-              <p>This is the third slide</p>
+            <img style={{height:'5em', width:'7em'}} src={gok} alt="" />
             </div>
           </div>
         </Carousel.Item>
+        
       </Carousel>
     </Container>
   );

@@ -14,23 +14,23 @@ const NavigationBar = () => {
   return (
     <Navbar bg="black" expand="lg" variant="dark" style={{ opacity: 0.8, position: 'fixed', width: '100%', zIndex: 100 }}>
       <Container>
-        <Navbar.Brand href="#home" style={{ marginRight: '20em' }}>
+        <Navbar.Brand href="#home" style={{ marginRight: '20em', paddingBottom:0 }}>
         
           <Image
            src={logo} 
             alt="Logo"
             fluid
-            style={{maxHeight:'5em'}}
+            style={{maxHeight:'7em', height:'7em'}}
             // className="d-inline-block align-top"
              />
-        </Navbar.Brand>
+        </Navbar.Brand  >
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link  style={NavLinkStyle} href="/">Explore</Nav.Link>
             <Nav.Link  style={NavLinkStyle} href="#stories">Stories</Nav.Link>
             
-            <Link style={{textDecoration:'none', color:'#fff', marginTop:'.8vh', marginLeft:'.2vw'}} to={'/careers'}>Careers</Link>
+            <Link style={{textDecoration:'none', color:'#fff', marginTop:'1vh', marginLeft:'.3vw'}} to={'/careers'}>Careers</Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse className="justify-content-end">

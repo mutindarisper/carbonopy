@@ -7,6 +7,7 @@ import logo from '../assets/logos/logo_white.png'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import XIcon from '@mui/icons-material/X';
 import FacebookIcon from '@mui/icons-material/Facebook';
+import Header2 from './Header2';
 
 const Footer = () => {
     return (
@@ -37,8 +38,12 @@ const Footer = () => {
                         </InputGroup>
 
                         <p>©2024 carbonflo.earth. All rights reserved.</p>
+                        
+
+                        
 
                     </Stack>
+                    <Header2 />
 
                 </Col>
 
