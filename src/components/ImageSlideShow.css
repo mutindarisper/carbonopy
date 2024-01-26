@@ -87,9 +87,18 @@
         /* display: block; */
         width: 100vw;
         height: 100vh ;
+        
       }
       
       .tilted-image {
+        height:25em;
+        width: 800px;
+     
         /* transform: rotate(-10deg); */
         /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);  */
+      }
+      .tab-container:{
+        height:80vh;
+        width:80vw;
+        background-color:#fff;
       }

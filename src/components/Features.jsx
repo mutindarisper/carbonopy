@@ -50,8 +50,8 @@ const Features = () => {
                     </Col>
 
 
-                    <Col className=""  fluid >
-                        <Image className='tilted-image '  src={biomass} fluid />
+                    <Col className="tab-container"  fluid >
+                        <Image className='tilted-image'  src={biomass} fluid />
 
                     </Col>
                 </Row>

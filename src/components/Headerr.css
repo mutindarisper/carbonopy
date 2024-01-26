@@ -1,0 +1,40 @@
+.custom-container {
+    background-image: url('../assets/images/stars.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white; /* Adjust text color for readability */
+  
+    /* Optional: Add additional styling for the container */
+    padding: 15em;
+    margin-bottom: 0;
+  }
+  
+  .text-container {
+    padding: 20px;
+  }
+   .your-image2 {
+    max-width:70vw;
+    max-height:50vh;
+    transform: skewY(10deg);
+    
+  }
+
+  .your-image {
+    max-width:70vw;
+    max-height:50vh;
+    transform: skewY(-10deg);
+    
+  }
+
+  .custom2-container {
+    background-image: url('../assets/images/ml.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    color: white; /* Adjust text color for readability */
+  
+    /* Optional: Add additional styling for the container */
+    padding: 10em;
+    margin-bottom: 0;
+  }
+

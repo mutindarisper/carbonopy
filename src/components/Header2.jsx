@@ -16,7 +16,7 @@ const Header2 = () => {
           <div className="carousel-item-content">
             <div className="carousel-image image1"></div>
             <div className="carousel-text">
-             <img style={{height:'10em', width:'15em', marginTop:'-5vh' }} src={unccd} alt="" />
+             <img style={{height:'10em', width:'15em', marginTop:'-5vh' }} src={unccd} alt="" /> 
             </div>
           </div>
         </Carousel.Item>

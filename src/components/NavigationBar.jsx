@@ -35,7 +35,7 @@ const NavigationBar = () => {
         </Navbar.Collapse>
         <Navbar.Collapse className="justify-content-end">
           <Nav>
-            <Nav.Link style={NavLinkStyle} href="#book-demo">Talk to Us </Nav.Link>
+          <Link style={{textDecoration:'none', color:'#fff', marginTop:'1.2vh', marginRight:'2vw'}} to={'/email'}>Talk to Us</Link>
             <Button variant="outline-light">Try Carbon-flo</Button>
           </Nav>
         </Navbar.Collapse>

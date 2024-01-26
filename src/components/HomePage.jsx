@@ -5,6 +5,7 @@ import Features from './Features'
 import CallToAction from './CallToAction'
 import Footer from './Footer'
 import Header2 from './Header2'
+import Headerr from './Headerr'
 
 const HomePage = () => {
   return (
@@ -12,7 +13,7 @@ const HomePage = () => {
 
 <NavigationBar />
 <Header />    
-<Features />  
+<Headerr />  
 <CallToAction  />
 <Footer />
  
