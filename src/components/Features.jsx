@@ -191,7 +191,7 @@ const Features = () => {
 
             </Container>
 
-            <Container style={{}} className='  d-flex flex-column justify-content-center align-items-center dimmed-image-container' fluid >
+            <Container style={{}} className='d-flex flex-column justify-content-center align-items-center dimmed-image-container' fluid >
 
                 <img src={stars} alt="space" className="dimmed-image"></img>
 

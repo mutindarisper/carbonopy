@@ -4,6 +4,7 @@ import Careers from './components/Careers'
 import './index.css'
 import { Route, Routes } from 'react-router-dom';
 import EmailUs from "./components/EmailUs";
+import ComingSoon from "./components/ComingSoon";
 
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
       <Route path="/stories" element={<Stories />} />
       <Route path="/careers" element={ <Careers /> } />
       <Route path="/email" element={ <EmailUs /> } />
+      <Route path="/carbonflo.earth" element={ <ComingSoon /> } />
     </Routes>
     
      

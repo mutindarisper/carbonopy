@@ -19,9 +19,9 @@ const EmailUs = () => {
     };
 
     return (
-        <Container style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center',height: '100vh', backgroundColor:'#fff'}} fluid >
+        <Container style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center',height: '100vh', backgroundColor:'#ddd'}} fluid >
 
-        <Container  style={{maxWidth:'50em', padding:'2em', backgroundColor:'#eee'  }} fluid>
+        <Container  style={{maxWidth:'50em', padding:'2em', backgroundColor:'#fff', borderRadius:'1.5em'  }} fluid>
 
             <Form onSubmit={handleSubmit}>
                 <Form.Group controlId="recipientEmail">

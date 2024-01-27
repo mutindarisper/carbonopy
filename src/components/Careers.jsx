@@ -58,8 +58,10 @@ const Careers = () => {
           transform: 'translate(-50%, -50%)',
           color: '#fff', // Text color
           zIndex: 1,
-          marginTop:'12em',
-          maxHeight:'20em'
+          marginTop:'20em',
+          height:'35em',
+          width:'35em',
+
         }} src={ceo} roundedCircle fluid />
 
      

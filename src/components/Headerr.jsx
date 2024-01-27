@@ -21,8 +21,8 @@ const Headerr = () => {
             <div className="text-container">
               <h2>Vegetation Analytics</h2>
 
-              <p style={{ fontSize: '1.5em' }}>The publicly available, web-based service delivering near real-time information on above ground biomass,
-                a pivotal metric for understanding carbon sequestration </p>
+              <p style={{ fontSize: '1.5em' }}>The publicly available, web-based service delivering near real-time 
+              information on above ground biomass. Estimation of above-ground biomass is a pivotal metric for understanding carbon sequestration and overall ecosystem health. </p>
             </div>
           </Col>
           <Col xs={12} md={6}>
@@ -36,18 +36,19 @@ const Headerr = () => {
         <Row>
           <Col xs={12} md={6}>
             <div className="text-container">
-              <h2>Historical Assessment</h2>
+              
 
-              <p style={{ fontSize: '1.5em' }}>The publicly available, web-based service delivering near real-time information on historical assessment of
-                forested or vegetated land . </p>
+              <h2>Crop Analytics</h2>
+
+              <p style={{ fontSize: '1.5em' }}>The publicly available, web-based service delivering near real-time information on 
+              crop analytics. Crop analytics platform that incorporates a decision support system that helps small-holder farmers make informed choices regarding planting, harvesting, and other critical activities. These systems can provide recommendations based on historical data, current conditions, and predictive models. </p>
             </div>
           </Col>
           <Col xs={12} md={6}>
-            <Image src={biomass} alt="Your Image" className='your-image2' fluid />
+            <Image src={crops} alt="Your Image" className='your-image2' fluid />
           </Col>
         </Row>
       </Container>
-
 
 
 
@@ -57,11 +58,12 @@ const Headerr = () => {
             <div className="text-container">
               <h2>Carbon Insets and Offsets</h2>
 
-              <p style={{ fontSize: '1.5em' }}>The publicly available, web-based service delivering near real-time information for Carbon Insets and Offsets. </p>
+              <p style={{ fontSize: '1.5em' }}>The publicly available, web-based service delivering near real-time 
+              information for Carbon Insets and Offsets. Both carbon offsets and insets contribute to the broader goal of achieving a net-zero carbon balance. While offsets provide a means to compensate for emissions that are difficult to eliminate completely, insets focus on actively increasing carbon sequestration to enhance the overall carbon balance. </p>
             </div>
           </Col>
           <Col xs={12} md={6}>
-            <Image src={biomass} alt="Your Image" className='your-image' fluid />
+            <Image src={carbon} alt="Your Image" className='your-image' fluid />
           </Col>
         </Row>
       </Container>
@@ -74,11 +76,12 @@ const Headerr = () => {
             <div className="text-container">
               <h2>Biodiversity Conservation</h2>
 
-              <p style={{ fontSize: '1.5em' }}>The publicly available, web-based service delivering near real-time information on Biodiversity Conservation. </p>
+              <p style={{ fontSize: '1.5em' }}>The publicly available, web-based service delivering near real-time information 
+              on Biodiversity Conservation.Addressing climate change is integral to biodiversity conservation. Climate change poses a significant threat to many species and ecosystems. Conservation strategies often include measures to mitigate and adapt to climate change, such as protecting carbon-rich habitats and promoting resilient ecosystems. </p>
             </div>
           </Col>
           <Col xs={12} md={6}>
-            <Image src={biomass} alt="Your Image" className='your-image2' fluid />
+            <Image src={biodiversity} alt="Your Image" className='your-image2' fluid />
           </Col>
         </Row>
       </Container>
@@ -91,13 +94,14 @@ const Headerr = () => {
             <div className="text-container">
               
 
-              <h2>Crop Analytics</h2>
+              <h2>Development of Geospatial Applictions</h2>
 
-              <p style={{ fontSize: '1.5em' }}>The publicly available, web-based service delivering near real-time information on crop analytics. </p>
+              <p style={{ fontSize: '1.5em' }}>Our team of skilled developers, designers, and geospatial experts collaborates closely to develop state-of-the-art geospatial web applications tailored to the unique needs of our clients.
+               Whether it's mapping and visualization tools, asset tracking systems, or spatial analytics platforms, we leverage the latest technologies and industry best practices to deliver robust and scalable solutions that drive real-world impact. </p>
             </div>
           </Col>
           <Col xs={12} md={6}>
-            <Image src={biomass} alt="Your Image" className='your-image' fluid />
+            <Image src={crops} alt="Your Image" className='your-image' fluid />
           </Col>
         </Row>
       </Container>

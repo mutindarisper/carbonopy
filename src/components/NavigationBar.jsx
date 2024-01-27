@@ -11,6 +11,7 @@ const NavLinkStyle = {
 }
 
 const NavigationBar = () => {
+  const navigate = useNavigate()
   return (
     <Navbar bg="black" expand="lg" variant="dark" style={{ opacity: 0.8, position: 'fixed', width: '100%', zIndex: 100 }}>
       <Container>
@@ -20,7 +21,7 @@ const NavigationBar = () => {
            src={logo} 
             alt="Logo"
             fluid
-            style={{maxHeight:'7em', height:'7em'}}
+            style={{maxHeight:'7em', height:'8em'}}
             // className="d-inline-block align-top"
              />
         </Navbar.Brand  >
@@ -36,7 +37,10 @@ const NavigationBar = () => {
         <Navbar.Collapse className="justify-content-end">
           <Nav>
           <Link style={{textDecoration:'none', color:'#fff', marginTop:'1.2vh', marginRight:'2vw'}} to={'/email'}>Talk to Us</Link>
-            <Button variant="outline-light">Try Carbon-flo</Button>
+            <Button 
+            variant="outline-light"
+            onClick={() => navigate('/carbonflo.earth')}
+            >Try Carbon-flo</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>

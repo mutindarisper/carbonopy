@@ -7,9 +7,10 @@ import { Container, Button } from 'react-bootstrap';
 const CallToAction = () => {
 
     const texts = [
-        "above ground biomass",
-        "carbon footprints",
-        "crop analytics",
+        "to assess above ground biomass?",
+        "to assess carbon footprints?",
+        "to assess crop analytics?",
+        "to build an application for you?"
         // Add more texts as needed
       ];
     
@@ -37,7 +38,7 @@ const CallToAction = () => {
           color: '#fff', // Text color
           zIndex: 1,
           fontSize:'5em'
-        }}>Are you ready to assess <span style={{color:'yellow'}}>{currentText}</span> </p>
+        }}>Do you want us  <span style={{color:'yellow'}}>{currentText}</span> </p>
                 <Button style={{
           position: 'absolute',
           top: '50%',

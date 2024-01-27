@@ -23,11 +23,12 @@
     max-width:70vw;
     max-height:50vh;
     transform: skewY(-10deg);
+    padding-right: 2em;
     
   }
 
   .custom2-container {
-    background-image: url('../assets/images/ml.jpg');
+    background-image: url('../assets/images/ml_.png');
     
     background-size: cover;
     background-position: center;
