@@ -17,9 +17,10 @@ import NavigationBar from './NavigationBar';
 const Careers = () => {
 
   const texts = [
-    "above ground biomass",
-    "carbon footprints",
-    "crop analytics",
+    "assess above ground biomass?",
+    "assess carbon footprints?",
+    "assess crop analytics?",
+    "build an application for you?"
     // Add more texts as needed
   ];
 
@@ -40,7 +41,7 @@ const Careers = () => {
       <NavigationBar />
 
 
-      <Container className='  d-flex flex-column justify-content-center align-items-center dimmed-image-container' fluid >
+      <Container className='d-flex flex-column justify-content-center align-items-center dimmed-image-container' fluid >
 
 
 
@@ -106,7 +107,7 @@ const Careers = () => {
           color: '#fff', // Text color
           zIndex: 1,
           fontSize: '5em'
-        }}>Are you ready to assess <span style={{ color: 'yellow' }}>{currentText}</span> </p>
+        }}>Do you want us to <span style={{ color: 'yellow' }}>{currentText}</span> </p>
         <Button style={{
           position: 'absolute',
           top: '50%',

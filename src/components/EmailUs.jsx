@@ -19,13 +19,18 @@ const EmailUs = () => {
         // Example: Send data to backend or handle submission logic
     };
 
+    const handleOpenGmail = () => {
+        window.location.href = 'mailto:info@carbonflo.earth'; // Replace 'your.email@gmail.com' with the desired email address
+      };
+    
+
     return (
         <Container style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center',height: '100vh', backgroundColor:'#ddd',
          backgroundImage: `url(${ml})`, backgroundRepeat:'no-repeat', backgroundSize:'cover'}} fluid >
 
         <Container  style={{maxWidth:'50em', padding:'2em', backgroundColor:'#fff', borderRadius:'1.5em'  }} fluid>
 
-            <Form onSubmit={handleSubmit}>
+            <Form onSubmit={handleOpenGmail}>
                 <Form.Group controlId="recipientEmail">
                     <Form.Label>Recipient Email</Form.Label>
                     <Form.Control

@@ -12,6 +12,11 @@ const NavLinkStyle = {
 
 const NavigationBar = () => {
   const navigate = useNavigate()
+
+  const handleOpenGmail = () => {
+    window.location.href = 'mailto:info@carbonflo.earth'; // Replace 'your.email@gmail.com' with the desired email address
+  };
+
   return (
     <Navbar bg="black" expand="lg" variant="dark" style={{ opacity: 0.8, position: 'fixed', width: '100%', zIndex: 100 }}>
       <Container>
@@ -36,7 +41,7 @@ const NavigationBar = () => {
         </Navbar.Collapse>
         <Navbar.Collapse className="justify-content-end">
           <Nav>
-          <Link style={{textDecoration:'none', color:'#fff', marginTop:'1.2vh', marginRight:'2vw'}} to={'/email'}>Talk to Us</Link>
+          <Link onClick={handleOpenGmail} style={{textDecoration:'none', color:'#fff', marginTop:'1.2vh', marginRight:'2vw'}} >Talk to Us</Link>
             <Button 
             variant="outline-light"
             onClick={() => navigate('/comingsoon')}
