@@ -9,6 +9,7 @@ import tab from '../assets/images/tab.png'
 import ceo from '../assets/images/ceo.jpeg'
 import stars from '../assets/images/stars.jpg'
 import satellite from '../assets/images/sat.jpg'
+import tech from '../assets/images/tech.png'
 import CallToAction from './CallToAction';
 import Footer from './Footer';
 import NavigationBar from './NavigationBar';
@@ -55,7 +56,7 @@ const Careers = () => {
             color: '#fff', // Text color
             zIndex: 1,
             fontSize: '5em'
-          }}>Meet the CEO  </p>
+          }}>Meet the Team  </p>
 
 
           <p style={{
@@ -67,8 +68,8 @@ const Careers = () => {
             zIndex: 1,
             fontSize: '1.5em',
             width:'25em'
-          }}>An experienced and passionate Earth Observation and ICT, with a proven track record in spatial analysis, ecosystem and ecosystem modelling, data visualization and EO based software system designs and implementation. He is keen to realize impacts to the communities through citizen centric scientific designs and solutions. He is passionate about the application of Earth Observation,
-            AI and ML for good including and not limited to safe space for flora and fauna, peace, justice and strong institutions through partnerships and collaboration. </p>
+          }}>Our team of skilled developers, designers, and geospatial experts collaborates closely to develop state-of-the-art geospatial web applications tailored to the unique needs of our clients.
+          Whether it's mapping and visualization tools, asset tracking systems, or spatial analytics platforms, we leverage the latest technologies and industry best practices to deliver robust and scalable solutions that drive real-world impact. </p>
 
         </div>
 
@@ -78,15 +79,15 @@ const Careers = () => {
         <Image style={{
           position: 'absolute',
           top: '20%',
-          left: '60%',
+          left: '70%',
           transform: 'translate(-50%, -50%)',
           color: '#fff', // Text color
           zIndex: 1,
           marginTop: '20em',
           height: '35em',
-          width: '35em',
+          width: '45em',
 
-        }} src={ceo} roundedCircle fluid />
+        }} src={tech} rounded fluid />
 
 
 
