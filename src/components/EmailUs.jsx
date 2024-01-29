@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form, Button, Container } from 'react-bootstrap';
 import Typography from '@mui/material/Typography'
+import ml from'../assets/images/ml_.png'
 
 const EmailUs = () => {
     // const recipientEmail = 'seth.nyawacha@carbonflo.earth'
-    const [recipientEmail, setRecipientEmail] = useState('seth.nyawacha@carbonflo.earth');
+    const [recipientEmail, setRecipientEmail] = useState('info@carbonflo.earth');
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
 
@@ -19,7 +20,8 @@ const EmailUs = () => {
     };
 
     return (
-        <Container style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center',height: '100vh', backgroundColor:'#ddd'}} fluid >
+        <Container style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center',height: '100vh', backgroundColor:'#ddd',
+         backgroundImage: `url(${ml})`, backgroundRepeat:'no-repeat', backgroundSize:'cover'}} fluid >
 
         <Container  style={{maxWidth:'50em', padding:'2em', backgroundColor:'#fff', borderRadius:'1.5em'  }} fluid>
 

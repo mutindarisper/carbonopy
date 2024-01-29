@@ -10,7 +10,16 @@ import biodiversity from '../assets/images/biodiversity.png';
 import crops from '../assets/images/crops.png'
 import satellite from '../assets/images/satellite.jpeg'
 import stars from '../assets/images/stars.jpg'
+
+import canopy from '../assets/images/canopy.jpg'
+import bio from '../assets/images/biodiversity_con.jpg'
+import crop from '../assets/images/crop.jpg'
+import footprint from '../assets/images/footprint.jpg'
+import offset from '../assets/images/offset.jpg'
+import anga from '../assets/images/anga.png'
+
 const Headerr = () => {
+  const navigate = useNavigate()
   return (
 
     <>
@@ -128,9 +137,9 @@ const Headerr = () => {
                                 <Card.Text>
                                     Above ground biomass of plantations
                                 </Card.Text>
-                                <Button variant="secondary">View Story</Button>
+                                <Button variant="secondary" onClick={() => navigate('/email')} >Reach Out</Button>
                             </Card.Body>
-                            <Card.Img src={satellite} />
+                            <Card.Img src={canopy} />
                         </Card>
                     </Col>
 
@@ -143,9 +152,9 @@ const Headerr = () => {
                                 <Card.Text>
                                     Historical assessment of forested and vegetated land of their carbon footprints
                                 </Card.Text>
-                                <Button variant="secondary">View Story</Button>
+                                <Button variant="secondary" onClick={() => navigate('/email')}>Reach Out</Button>
                             </Card.Body>
-                            <Card.Img src={satellite} />
+                            <Card.Img src={footprint} />
                         </Card>
 
                     </Col>
@@ -158,9 +167,9 @@ const Headerr = () => {
                                 <Card.Text>
                                     Carbon insets and offsets based on traceable vegetation type
                                 </Card.Text>
-                                <Button variant="secondary">View Story</Button>
+                                <Button variant="secondary" onClick={() => navigate('/email')}>Reach Out</Button>
                             </Card.Body>
-                            <Card.Img src={satellite} />
+                            <Card.Img src={offset} />
                         </Card>
                     </Col>
 
@@ -173,9 +182,9 @@ const Headerr = () => {
                                 <Card.Text>
                                     Biodiversity Conservation of Pressure Index (BCPI)
                                 </Card.Text>
-                                <Button variant="secondary">View Story</Button>
+                                <Button variant="secondary" onClick={() => navigate('/email')}>Reach Out</Button>
                             </Card.Body>
-                            <Card.Img src={satellite} />
+                            <Card.Img src={bio} />
                         </Card>
                     </Col>
 
@@ -187,9 +196,23 @@ const Headerr = () => {
                                 <Card.Text>
                                     Small holder farmers access to crop analytics intelligence at scale
                                 </Card.Text>
-                                <Button variant="secondary">View Story</Button>
+                                <Button variant="secondary" onClick={() => navigate('/email')}>Reach Out</Button>
                             </Card.Body>
-                            <Card.Img src={satellite} />
+                            <Card.Img src={crop} />
+                        </Card>
+                    </Col>
+
+                    <Col lg={4} sm={12}>
+                        <Card className='mb-4' style={{ maxWidth: '20rem', }}>
+
+                            <Card.Body>
+                                <Card.Title>Geospatial Applictions</Card.Title>
+                                <Card.Text>
+                                Our team of skilled developers, designers, and geospatial experts collaborates closely to develop state-of-the-art geospatial web applications tailored to the unique needs of our clients.
+                                </Card.Text>
+                                <Button variant="secondary" onClick={() => navigate('/email')}>Reach Out</Button>
+                            </Card.Body>
+                            <Card.Img src={anga} />
                         </Card>
                     </Col>
 

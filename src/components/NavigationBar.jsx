@@ -39,7 +39,7 @@ const NavigationBar = () => {
           <Link style={{textDecoration:'none', color:'#fff', marginTop:'1.2vh', marginRight:'2vw'}} to={'/email'}>Talk to Us</Link>
             <Button 
             variant="outline-light"
-            onClick={() => navigate('/carbonflo.earth')}
+            onClick={() => navigate('/comingsoon')}
             >Try Carbon-flo</Button>
           </Nav>
         </Navbar.Collapse>

@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import { Container, Row, Col, Image, Stack, Button, Card } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
 import Typography from '@mui/material/Typography'
@@ -36,68 +36,92 @@ const Careers = () => {
   }, [currentText, texts]);
   return (
     <>
-    <NavigationBar />
-     
+      <NavigationBar />
 
-      <Container  className='  d-flex flex-column justify-content-center align-items-center dimmed-image-container'  fluid > 
 
-     
-      <p style={{
-          position: 'absolute',
-          top: '40%',
-          left: '20%',
-          transform: 'translate(-50%, -50%)',
-          color: '#fff', // Text color
-          zIndex: 1,
-          fontSize:'5em'
-        }}>Meet the CEO  </p>
-                <Image style={{
+      <Container className='  d-flex flex-column justify-content-center align-items-center dimmed-image-container' fluid >
+
+
+
+
+
+        <div className="intro_content">
+
+          <p style={{
+            position: 'absolute',
+            top: '40%',
+            left: '20%',
+            transform: 'translate(-50%, -50%)',
+            color: '#fff', // Text color
+            zIndex: 1,
+            fontSize: '5em'
+          }}>Meet the CEO  </p>
+
+
+          <p style={{
+            position: 'absolute',
+            top: '68%',
+            left: '23%',
+            transform: 'translate(-50%, -50%)',
+            color: '#fff', // Text color
+            zIndex: 1,
+            fontSize: '1.5em',
+            width:'25em'
+          }}>An experienced and passionate Earth Observation and ICT, with a proven track record in spatial analysis, ecosystem and ecosystem modelling, data visualization and EO based software system designs and implementation. He is keen to realize impacts to the communities through citizen centric scientific designs and solutions. He is passionate about the application of Earth Observation,
+            AI and ML for good including and not limited to safe space for flora and fauna, peace, justice and strong institutions through partnerships and collaboration. </p>
+
+        </div>
+
+
+
+
+        <Image style={{
           position: 'absolute',
           top: '20%',
           left: '60%',
           transform: 'translate(-50%, -50%)',
           color: '#fff', // Text color
           zIndex: 1,
-          marginTop:'20em',
-          height:'35em',
-          width:'35em',
+          marginTop: '20em',
+          height: '35em',
+          width: '35em',
 
         }} src={ceo} roundedCircle fluid />
 
-     
-                
 
-                <img src={stars} alt="space" className="dimmed-image"></img>
-                
-                </Container>
-      
-      
-                <Container  className='  d-flex flex-column justify-content-center align-items-center dimmed-image-container'  fluid > 
-                <p style={{
+
+
+        <img src={stars} alt="space" className="dimmed-image"></img>
+
+      </Container>
+
+
+      <Container className='  d-flex flex-column justify-content-center align-items-center dimmed-image-container' fluid >
+        <p style={{
           position: 'absolute',
           top: '50%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
           color: '#fff', // Text color
           zIndex: 1,
-          fontSize:'5em'
-        }}>Are you ready to assess <span style={{color:'yellow'}}>{currentText}</span> </p>
-                <Button style={{
+          fontSize: '5em'
+        }}>Are you ready to assess <span style={{ color: 'yellow' }}>{currentText}</span> </p>
+        <Button style={{
           position: 'absolute',
           top: '50%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
           color: '#fff', // Text color
           zIndex: 1,
-          marginTop:'12em'
+          marginTop: '12em'
         }} variant="outline-warning">Schedule a demo</Button>
-                <img src={satellite} alt="space" className="dimmed-image"></img>
-                
-                </Container>
+        <img src={satellite} alt="space" className="dimmed-image"></img>
+
+      </Container>
 
       <Footer />
-      
-      </>
+
+    </>
   )
 }
 

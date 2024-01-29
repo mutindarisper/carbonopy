@@ -15,14 +15,16 @@
    .your-image2 {
     max-width:70vw;
     max-height:50vh;
-    transform: skewY(10deg);
-    
+    /* transform: skew(0deg); */
+    transform: skewY(-10deg); 
+    transform: skewX(-0deg); /* Skew along the X-axis (width) */
+    transform-origin: right center; 
   }
 
   .your-image {
     max-width:70vw;
     max-height:50vh;
-    transform: skewY(-10deg);
+    /* transform: skewY(-10deg); */
     padding-right: 2em;
     
   }

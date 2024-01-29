@@ -1,12 +1,20 @@
 import React from 'react'
+import { Link, useNavigate } from 'react-router-dom';
 import { Container, Row, Col,  Button, Card } from 'react-bootstrap';
 import satellite from '../assets/images/satellite.jpeg'
+import canopy from '../assets/images/canopy.jpg'
+import bio from '../assets/images/biodiversity_con.jpg'
+import crop from '../assets/images/crop.jpg'
+import footprint from '../assets/images/footprint.jpg'
+import offset from '../assets/images/offset.jpg'
+import anga from '../assets/images/anga.png'
 import CallToAction from './CallToAction';
 import Footer from './Footer';
 import NavigationBar from './NavigationBar';
 
 
 const Stories = () => {
+    const navigate = useNavigate()
   return (
     <>
     <NavigationBar />
@@ -27,9 +35,9 @@ const Stories = () => {
                                 <Card.Text>
                                     Above ground biomass of plantations
                                 </Card.Text>
-                                <Button variant="secondary">View Story</Button>
+                                <Button variant="secondary"  onClick={() => navigate('/email')}>Reach Out</Button>
                             </Card.Body>
-                            <Card.Img src={satellite} />
+                            <Card.Img src={canopy} />
                         </Card>
                     </Col>
 
@@ -42,9 +50,9 @@ const Stories = () => {
                                 <Card.Text>
                                     Historical assessment of forested and vegetated land of their carbon footprints
                                 </Card.Text>
-                                <Button variant="secondary">View Story</Button>
+                                <Button variant="secondary"  onClick={() => navigate('/email')}>Reach Out</Button>
                             </Card.Body>
-                            <Card.Img src={satellite} />
+                            <Card.Img src={footprint} />
                         </Card>
 
                     </Col>
@@ -57,9 +65,9 @@ const Stories = () => {
                                 <Card.Text>
                                     Carbon insets and offsets based on traceable vegetation type
                                 </Card.Text>
-                                <Button variant="secondary">View Story</Button>
+                                <Button variant="secondary"  onClick={() => navigate('/email')}>Reach Out</Button>
                             </Card.Body>
-                            <Card.Img src={satellite} />
+                            <Card.Img src={offset} style={{height:'25em'}} />
                         </Card>
                     </Col>
 
@@ -72,9 +80,9 @@ const Stories = () => {
                                 <Card.Text>
                                     Biodiversity Conservation of Pressure Index (BCPI)
                                 </Card.Text>
-                                <Button variant="secondary">View Story</Button>
+                                <Button variant="secondary"  onClick={() => navigate('/email')}>Reach Out</Button>
                             </Card.Body>
-                            <Card.Img src={satellite} />
+                            <Card.Img src={bio} />
                         </Card>
                     </Col>
 
@@ -86,9 +94,24 @@ const Stories = () => {
                                 <Card.Text>
                                     Small holder farmers access to crop analytics intelligence at scale
                                 </Card.Text>
-                                <Button variant="secondary">View Story</Button>
+                                <Button variant="secondary"  onClick={() => navigate('/email')}>Reach Out</Button>
                             </Card.Body>
-                            <Card.Img src={satellite} />
+                            <Card.Img src={crop} />
+                        </Card>
+                    </Col>
+
+
+                    <Col lg={4} sm={12}>
+                        <Card className='mb-4' style={{ maxWidth: '20rem', }}>
+
+                            <Card.Body>
+                                <Card.Title>Geospatial Applictions</Card.Title>
+                                <Card.Text>
+                                Our team of skilled developers, designers, and geospatial experts collaborates closely to develop state-of-the-art geospatial web applications tailored to the unique needs of our clients.
+                                </Card.Text>
+                                <Button variant="secondary" onClick={() => navigate('/email')}>Reach Out</Button>
+                            </Card.Body>
+                            <Card.Img src={anga} />
                         </Card>
                     </Col>
 
