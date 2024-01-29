@@ -33,7 +33,7 @@ const Stories = () => {
                             <Card.Body >
                                 <Card.Title>Vegetation Analytics</Card.Title>
                                 <Card.Text>
-                                    Above ground biomass of plantations
+                                We deploy our trained models to assess the nature of vegetation in space. With a keen focus of above and below ground biomass and estimate carbon, tree height and canopy percentage. This assists to ascertain vegetation connectivity at scale for your carbon reporting needs.
                                 </Card.Text>
                                 <Button variant="secondary"  onClick={() => navigate('/email')}>Reach Out</Button>
                             </Card.Body>
@@ -41,21 +41,7 @@ const Stories = () => {
                         </Card>
                     </Col>
 
-                    <Col lg={4} sm={12}>
-
-                        <Card className='mb-4' style={{ maxWidth: '30rem' }}>
-
-                            <Card.Body>
-                                <Card.Title>Historical Assessment</Card.Title>
-                                <Card.Text>
-                                    Historical assessment of forested and vegetated land of their carbon footprints
-                                </Card.Text>
-                                <Button variant="secondary"  onClick={() => navigate('/email')}>Reach Out</Button>
-                            </Card.Body>
-                            <Card.Img src={footprint} />
-                        </Card>
-
-                    </Col>
+                 
 
                     <Col lg={4} sm={12}>
                         <Card className='mb-4' style={{ maxWidth: '30rem' }}>
@@ -63,7 +49,7 @@ const Stories = () => {
                             <Card.Body>
                                 <Card.Title>Carbon Insets and Offsets</Card.Title>
                                 <Card.Text>
-                                    Carbon insets and offsets based on traceable vegetation type
+                                Using our process-based workflow plus the historical integration of satellite technology, we assist stakeholders in understanding the analytics towards understanding how well they are doing with their net zero target. We leverage historical analytics and ground truth data to inform on your progress. You can trust us with your reporting.
                                 </Card.Text>
                                 <Button variant="secondary"  onClick={() => navigate('/email')}>Reach Out</Button>
                             </Card.Body>
@@ -78,7 +64,7 @@ const Stories = () => {
                             <Card.Body>
                                 <Card.Title>Biodiversity Conservation</Card.Title>
                                 <Card.Text>
-                                    Biodiversity Conservation of Pressure Index (BCPI)
+                                The health of our flora and fauna is a key indicator towards understanding the level of conservation relevance for a given ecosystem. Do you want to understand what to do for specific large-scale farms, protected and unprotected areas? Ping us up and we shall assist with all your conservation relevance analytics.
                                 </Card.Text>
                                 <Button variant="secondary"  onClick={() => navigate('/email')}>Reach Out</Button>
                             </Card.Body>
@@ -92,7 +78,7 @@ const Stories = () => {
                             <Card.Body>
                                 <Card.Title>Crop Analytics</Card.Title>
                                 <Card.Text>
-                                    Small holder farmers access to crop analytics intelligence at scale
+                                We look at your farms from an eye birds view, by leveraging on existing earth observations and climate datasets to inform and address the underlying question such as: what is happening with my crops in the field, could I know whether my fertilizer application is working? What is the projection in terms of climate, and do I expect a bumpy harvest at the end of the season. We will answer all this questions for you using AI/ML driven models with a taste of validation.
                                 </Card.Text>
                                 <Button variant="secondary"  onClick={() => navigate('/email')}>Reach Out</Button>
                             </Card.Body>
